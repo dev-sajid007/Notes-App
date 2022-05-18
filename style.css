@@ -1,0 +1,40 @@
+body{
+    background: #88ABFF;
+}
+
+.wrapper{
+    margin: 50px;
+    display: grid;
+    gap: 15px;
+    grid-template-columns: repeat(auto-fill,265px);
+}
+
+.wrapper li{
+    height: 250px;
+    list-style: none;
+    background: #fff;
+    border-radius: 5px;
+    padding: 15px 20px 20px;
+}
+
+.add-box,.icon{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.add-box .icon{
+    height: 78px;
+    width: 78px;
+    color: #88ABFF;
+    font-size: 40px;
+    border: 2px dashed #88ABFF;
+    border-radius: 50px;
+}
+
+.add-box p{
+    color: #88ABFF;
+    font-weight: 500;
+    margin-top: 20px;
+}
